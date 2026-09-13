@@ -387,59 +387,33 @@ ul { list-style: none; }
   font-size: 0.95rem;
 }
 
-/* ---------- Clients marquee ---------- */
-.clients-marquee {
-  overflow: hidden;
-  width: 100%;
-  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
-  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
-}
-
-.clients-track {
+/* ---------- Clients strip (grayscale -> brand color on hover) ---------- */
+.clients-strip {
   display: flex;
-  align-items: center;
-  gap: 20px;
-  width: max-content;
-  animation: clients-scroll 22s linear infinite;
-}
-
-.clients-marquee:hover .clients-track {
-  animation-play-state: paused;
-}
-
-@keyframes clients-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
-.client-card {
-  flex: none;
-  background: var(--color-white);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 28px 40px;
-  min-width: 220px;
-  display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
-  font-weight: 700;
-  font-size: 1.15rem;
+  align-items: center;
+  gap: 32px 56px;
+}
+
+.client-logo {
+  --brand-color: var(--color-blue);
+  font-weight: 800;
+  font-size: 1.3rem;
   letter-spacing: -0.01em;
-  color: var(--color-ink-soft);
-  transition: color var(--transition), border-color var(--transition);
+  color: #94a3b8;
+  cursor: default;
+  transition: color var(--transition), transform var(--transition);
 }
 
-.client-card:hover {
-  border-color: var(--color-blue);
-  color: var(--color-blue);
+.client-logo:hover {
+  color: var(--brand-color);
+  transform: translateY(-2px);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .clients-track {
-    animation: none;
-  }
-}
+.client-logo--tuv { --brand-color: #0066b3; }
+.client-logo--anaveris { --brand-color: var(--color-green); }
+.client-logo--accounting { --brand-color: var(--color-red); }
 
 /* ---------- Steps ---------- */
 .steps {
