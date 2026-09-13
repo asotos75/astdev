@@ -143,17 +143,26 @@
         </div>
 
         <div class="clients-strip reveal">
-          <div class="client-badge client-badge--tuv">
-            <span class="client-icon">T</span>
-            <span class="client-name">TÜV NORD</span>
+          <div class="client-chip client-chip--tuv" aria-label="TÜV NORD">TÜVNORD</div>
+
+          <div class="client-chip client-chip--anaveris" aria-label="Anaveris">
+            <svg class="client-chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <g fill="currentColor">
+                <ellipse cx="12" cy="7" rx="3" ry="6" transform="rotate(0 12 12)"/>
+                <ellipse cx="12" cy="7" rx="3" ry="6" transform="rotate(45 12 12)"/>
+                <ellipse cx="12" cy="7" rx="3" ry="6" transform="rotate(90 12 12)"/>
+                <ellipse cx="12" cy="7" rx="3" ry="6" transform="rotate(135 12 12)"/>
+                <ellipse cx="12" cy="7" rx="3" ry="6" transform="rotate(180 12 12)"/>
+              </g>
+            </svg>
+            <span>Anavéris</span>
           </div>
-          <div class="client-badge client-badge--anaveris">
-            <span class="client-icon">A</span>
-            <span class="client-name">Anaveris</span>
-          </div>
-          <div class="client-badge client-badge--accounting">
-            <span class="client-icon">AS</span>
-            <span class="client-name">Accounting Solutions</span>
+
+          <div class="client-chip client-chip--accounting" aria-label="Accounting Solutions">
+            <svg class="client-chip-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M4 2v20h2.2V13h10.6l-3.1-4 3.1-4H6.2V2H4z"/>
+            </svg>
+            <span>Accounting Solutions</span>
           </div>
         </div>
       </div>
