@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>aSTDev Solutions | Ανάπτυξη Λογισμικού &amp; Web Εφαρμογών</title>
+  <meta name="description" content="Η aSTDev Solutions σχεδιάζει και αναπτύσσει ιστοσελίδες, web εφαρμογές και custom λογισμικό για επιχειρήσεις που θέλουν να μεγαλώσουν ψηφιακά." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="aSTDev Solutions - Αρχική">
+        <span class="logo-mark">&lt;</span><span class="logo-a">a</span><span class="logo-st">ST</span><span class="logo-dev">Dev</span><span class="logo-mark">/&gt;</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" class="nav-link">Αρχική</a>
+        <a href="#services" class="nav-link">Υπηρεσίες</a>
+        <a href="#process" class="nav-link">Πώς Δουλεύουμε</a>
+        <a href="#stack" class="nav-link">Τεχνολογίες</a>
+        <a href="#contact" class="nav-link nav-cta">Επικοινωνία</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Άνοιγμα μενού" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <span class="eyebrow">🚀 Νέα εταιρία λογισμικού</span>
+          <h1>Χτίζουμε ψηφιακά προϊόντα<br> που κάνουν τη δουλειά σας <span class="text-accent">πιο απλή</span></h1>
+          <p class="hero-sub">
+            Η aSTDev Solutions είναι μια νεοσύστατη ομάδα προγραμματιστών που σχεδιάζει
+            ιστοσελίδες, web εφαρμογές και custom λύσεις λογισμικού με σύγχρονες τεχνολογίες,
+            καθαρό κώδικα και προσωπική προσοχή σε κάθε project.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Ας μιλήσουμε για το project σας</a>
+            <a href="#services" class="btn btn-ghost">Δείτε τις υπηρεσίες</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-window-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="code-window-title">project.js</span>
+            </div>
+            <pre class="code-window-body"><code><span class="tok-kw">const</span> <span class="tok-var">startup</span> = {
+  name: <span class="tok-str">"aSTDev Solutions"</span>,
+  mission: <span class="tok-str">"απλό, γρήγορο, αξιόπιστο λογισμικό"</span>,
+  status: <span class="tok-str">"σε ανάπτυξη"</span>,
+  <span class="tok-fn">build</span>() {
+    <span class="tok-kw">return</span> <span class="tok-str">"η ιδέα σας, online 🚀"</span>;
+  }
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust / status strip -->
+    <section class="strip">
+      <div class="container strip-inner">
+        <p>Ξεκινάμε τα πρώτα μας projects — αν ψάχνετε τεχνολογικό συνεργάτη από την αρχή, θα χαρούμε να ακούσουμε την ιδέα σας.</p>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Υπηρεσίες</span>
+          <h2>Τι μπορούμε να φτιάξουμε για εσάς</h2>
+          <p>Από μια απλή παρουσίαση μέχρι ολοκληρωμένη εφαρμογή — προσαρμόζουμε τη λύση στις ανάγκες και τον προϋπολογισμό σας.</p>
+        </div>
+
+        <div class="grid services-grid">
+          <article class="card reveal">
+            <div class="card-icon">🌐</div>
+            <h3>Ιστοσελίδες</h3>
+            <p>Εταιρικά sites, landing pages και portfolio με γρήγορη φόρτωση, responsive design και βελτιστοποίηση για SEO.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🧩</div>
+            <h3>Web Εφαρμογές</h3>
+            <p>Custom εφαρμογές (dashboards, διαχειριστικά συστήματα, πλατφόρμες) φτιαγμένες γύρω από τη δική σας ροή εργασίας.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🛒</div>
+            <h3>E-commerce</h3>
+            <p>Ηλεκτρονικά καταστήματα με ασφαλείς πληρωμές, διαχείριση προϊόντων και εμπειρία που οδηγεί σε πωλήσεις.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🔗</div>
+            <h3>API &amp; Ενσωματώσεις</h3>
+            <p>Σύνδεση συστημάτων, τρίτων υπηρεσιών και αυτοματοποιήσεις που εξοικονομούν χρόνο στην καθημερινή λειτουργία.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🛠️</div>
+            <h3>Συντήρηση &amp; Υποστήριξη</h3>
+            <p>Ενημερώσεις, διορθώσεις και τεχνική υποστήριξη μετά την παράδοση, ώστε η εφαρμογή σας να παραμένει αξιόπιστη.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">💡</div>
+            <h3>Τεχνική Συμβουλευτική</h3>
+            <p>Σας βοηθάμε να διαλέξετε τη σωστή τεχνολογική λύση από την αρχή, χωρίς περιττό κόστος και πολυπλοκότητα.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section-alt" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Διαδικασία</span>
+          <h2>Πώς δουλεύουμε</h2>
+          <p>Μια απλή και διάφανη διαδικασία, από την πρώτη ιδέα μέχρι το παραδοτέο project.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-number">01</div>
+            <h3>Ανάλυση Αναγκών</h3>
+            <p>Σας ακούμε, καταγράφουμε τους στόχους σας και προτείνουμε τη λύση που ταιριάζει καλύτερα.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">02</div>
+            <h3>Σχεδιασμός</h3>
+            <p>Σχεδιάζουμε τη δομή και την εμφάνιση, με έμφαση στην απλότητα και την ευχρηστία.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">03</div>
+            <h3>Ανάπτυξη</h3>
+            <p>Γράφουμε καθαρό, συντηρήσιμο κώδικα και σας κρατάμε ενήμερους σε κάθε βήμα.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-number">04</div>
+            <h3>Παράδοση &amp; Υποστήριξη</h3>
+            <p>Παραδίδουμε, εκπαιδεύουμε την ομάδα σας και παραμένουμε διαθέσιμοι για ό,τι χρειαστεί.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech stack -->
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Τεχνολογίες</span>
+          <h2>Με τι δουλεύουμε</h2>
+          <p>Επιλέγουμε εργαλεία με βάση το project — όχι το αντίστροφο.</p>
+        </div>
+
+        <div class="tech-badges reveal">
+          <span class="badge">HTML5</span>
+          <span class="badge">CSS3</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">TypeScript</span>
+          <span class="badge">React</span>
+          <span class="badge">Node.js</span>
+          <span class="badge">PHP</span>
+          <span class="badge">Python</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">Docker</span>
+          <span class="badge">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <span class="section-tag">Επικοινωνία</span>
+          <h2>Έχετε μια ιδέα; Ας τη συζητήσουμε.</h2>
+          <p class="contact-lead">
+            Στείλτε μας λίγα λόγια για το project σας και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.
+          </p>
+
+          <ul class="contact-info">
+            <li>
+              <span class="contact-icon">✉️</span>
+              <a href="mailto:info@astdev.gr">info@astdev.gr</a>
+            </li>
+            <li>
+              <span class="contact-icon">📍</span>
+              <span>Ελλάδα · Απομακρυσμένη συνεργασία σε όλη τη χώρα</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Ονοματεπώνυμο</label>
+            <input type="text" id="name" name="name" placeholder="Το όνομά σας" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Μήνυμα</label>
+            <textarea id="message" name="message" rows="5" placeholder="Πείτε μας λίγα λόγια για το project σας..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Αποστολή Μηνύματος</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo logo-small">
+        <span class="logo-mark">&lt;</span><span class="logo-a">a</span><span class="logo-st">ST</span><span class="logo-dev">Dev</span><span class="logo-mark">/&gt;</span>
+      </a>
+      <p class="footer-copy">© <span id="year"></span> aSTDev Solutions. Όλα τα δικαιώματα διατηρούνται.</p>
+      <a href="mailto:info@astdev.gr" class="footer-email">info@astdev.gr</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
