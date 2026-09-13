@@ -439,7 +439,9 @@ ul { list-style: none; }
 }
 
 .client-chip--anaveris .client-chip-icon {
-  color: #ef7d3b;
+  width: 24px;
+  height: 24px;
+  color: #f0793e;
 }
 
 .client-chip--accounting {
@@ -450,7 +452,7 @@ ul { list-style: none; }
 }
 
 .client-chip--accounting .client-chip-icon {
-  color: #e0ac2b;
+  color: #f7c600;
 }
 
 /* ---------- Steps ---------- */
